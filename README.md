@@ -68,3 +68,22 @@ LSTM, while powerful, required more tuning and data preparation to outperform th
 Notably, social sentiment data (Twitter and Reddit) showed measurable correlation with price surges, especially for Bitcoin. However, sentiment-based models alone were insufficient without historical price context.
 
 These results highlight the importance of hybrid modeling—combining historical technicals with real-time social indicators—to improve crypto price forecasting.
+
+---
+
+## Future Work
+Model Optimization: Further tuning of hyperparameters, especially for LSTM and XGBoost models, could improve prediction accuracy.
+
+Multi-Crypto Prediction: Expanding beyond Bitcoin and Ethereum to include other coins like Solana or Ripple may reveal more diverse insights.
+
+Real-Time Prediction: Implementing a live price prediction dashboard using APIs from platforms like Binance or CoinGecko.
+
+Sentiment Analysis Expansion: Incorporate more advanced NLP techniques (e.g., BERT) to process social media sentiment more accurately.
+
+Integration of Macroeconomic Factors: Adding indicators such as interest rates, inflation, or regulatory news could enhance model performance.
+
+---
+
+## Conclusion
+This project demonstrates that machine learning models, particularly XGBoost and LSTM, hold potential for forecasting short-term cryptocurrency price movements. While historical data remains a strong predictor, incorporating external factors like sentiment adds valuable context. The findings suggest that a multi-input approach combining technical, social, and external data sources is more effective than relying on a single stream. These results can serve as a stepping stone for building more sophisticated prediction tools and offer practical insights for traders, analysts, and researchers in the crypto space.
+
