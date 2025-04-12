@@ -5,7 +5,7 @@ This project applies data science and machine learning techniques to explore and
 ---
 
 ## Project Objectives
-
+ 
 The core of this project is structured around four key research questions:
 
 1. **What market factors (e.g., trends, volume) have the strongest correlation with cryptocurrency price changes?**
