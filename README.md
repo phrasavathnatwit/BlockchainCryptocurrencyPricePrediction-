@@ -4,6 +4,13 @@ This project applies data science and machine learning techniques to explore and
 
 ---
 
+## Abstract
+This project explores the feasibility of predicting short-term cryptocurrency price changes—specifically Bitcoin and Ethereum—using various machine learning models such as LSTM, ARIMA, and XGBoost. The goal is to analyze which factors influence price movements and assess how accurately price trends can be forecasted within a 24-hour window. Through the use of historical data, social sentiment, and external market indicators, this study aims to contribute to the growing field of crypto analytics.
+
+Keywords: Cryptocurrency, Machine Learning, Price Prediction, Bitcoin, Ethereum, Time Series Analysis, LSTM, ARIMA, XGBoost
+
+---
+
 ## Project Objectives
  
 The core of this project is structured around four key research questions:
@@ -49,3 +56,15 @@ The project utilizes four main datasets:
 
 ---
 
+## Results
+After training and testing each model, we found the following:
+
+XGBoost achieved the most consistent short-term accuracy on test data with relatively fast training times.
+
+ARIMA worked well for linear trends but struggled with high volatility periods.
+
+LSTM, while powerful, required more tuning and data preparation to outperform the other models.
+
+Notably, social sentiment data (Twitter and Reddit) showed measurable correlation with price surges, especially for Bitcoin. However, sentiment-based models alone were insufficient without historical price context.
+
+These results highlight the importance of hybrid modeling—combining historical technicals with real-time social indicators—to improve crypto price forecasting.
