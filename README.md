@@ -39,7 +39,7 @@ The project utilizes four main datasets:
 
 - **Languages**: Python (Pandas, NumPy, Scikit-learn, Matplotlib, Seaborn, TensorFlow/Keras)
 - **Models**: LSTM (Long Short-Term Memory), ARIMA, XGBoost, Random Forest Regressor
-- **Evaluation Metrics**: MAE, RMSE, R²
+- **Evaluation Metrics**: MAE, RMSE
 - **Feature Engineering**:
   - Rolling volatility
   - Price change %
